@@ -54,8 +54,6 @@ if (analogRead(A0) > 585) //Joystick Reverse:
 if (digitalRead(SWL) == LOW) //Code to Identify STOP:
  {
   data[0] = 7; //Code to Identify STOP:
-   data[1] = 7; 
-   data[2] = 7;
   radio.write( data, sizeof(data) );
  }
 }
