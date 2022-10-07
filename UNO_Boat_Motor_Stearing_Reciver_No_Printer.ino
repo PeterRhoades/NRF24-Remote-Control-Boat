@@ -65,7 +65,7 @@ if (data[0] == 20) //Data Header Reverse:
    digitalWrite(in2, LOW);
 }
 
-if (data[0] == 7 && data[1] == 7 && data[2] == 7) //Safety STOP!!!!!
+if (data[0] == 7) //Safety STOP!!!!!
 {
  digitalWrite(in1, LOW);
   digitalWrite(in2, LOW);
